@@ -1,0 +1,630 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container{
+	width: 100%;
+	height: 2000px;
+	background-color: aquamarine;
+}
+.header{
+	width: 100%;
+	height: 70px;
+	background-color: aqua;
+}
+.logo{
+	width: 40%;
+	height: 70px;
+	background-color:aqua;
+	float:left;
+}
+.menu{
+	width: 60%;
+	height: 70px;
+	background-color:antiquewhite;
+	float:right;
+}
+.menu ul{
+	list-style: none;
+}
+.menu ul li{
+    float:left;
+	padding: 1px 20px 1px 20px;
+}
+.menu ul li a{
+    color:black;
+	text-decoration: none;
+}
+.menu ul li:hover
+{
+	border-bottom: 2px #2E1CA3 solid;
+}
+  
+.textnen{
+	width: 50%;
+	height: 290px;
+	background-color: aqua;
+	margin: 0 auto;
+}
+/*day la slide*/
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+.banner2{
+	width: 100%;
+	height: 350px;
+	background-color: paleturquoise;
+}
+.hinhbanner2{
+	width: 50%;
+	height:350px;
+	float:left;
+	background-color:aquamarine;
+	padding: 30px 0px 100px 450px;
+}
+.img1 img {
+	border-radius: 10%;}
+.chubanner2{
+	width:50%;
+	height: 350px;
+	background-color:darkcyan;
+	float:right;
+	padding: 50px 300px 0px 50px;
+}
+.banner3{
+	width: 100%;
+	height: 450px;
+	background-color:bisque;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	position: relative;
+}
+
+.item1{
+	width: 25%;
+	height: 300px;
+	background-color:darkcyan;
+	float:left;
+	margin: 1%;
+	position: relative;
+	overflow: hidden;
+}
+.label{
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top:230px;
+	left:160px;
+	background-color: peachpuff;
+	border-radius: 10px;
+}
+.booknow{
+	width: 150px;
+	height: 50px;
+	font-size: 15px;
+	font-weight: bold;
+	color: aliceblue;
+	position: absolute;
+	left: 28px;
+	top:5px;
+    cursor: pointer;
+}
+
+.item1 .label{
+	transition: all 0.5s linear;
+	opacity: 0;
+}
+.item1:hover .label{
+	transition: all 0.5s linear;
+	opacity: 1;
+}
+.item1 .label:hover
+{
+	background-color:black;
+}
+.item1 img
+{
+	transition: all 0.5s linear;
+}
+.item1:hover img
+{
+	transition: all 0.2s linear;
+	transform: scale(1.1);	
+}
+.chubanner3{
+	width: 100%;
+	height:125px;
+	background-color: pink;
+}
+
+.textitem2{
+	background-color: antiquewhite;
+	width: 320px;
+	height: 110px;
+	position: absolute;
+	top:316px;
+	text-align: center;
+	
+}
+.textitem3{
+	background-color: antiquewhite;
+	width: 320px;
+	height: 110px;
+	position: absolute;
+	top:316px;
+	right: 260px;
+	text-align: center;
+	
+	
+}
+.textitem1{
+	background-color: antiquewhite;
+	width: 320px;
+	height: 110px;
+	position: absolute;
+	top:316px;
+	left:270px;
+	text-align: center;
+	
+}
+.textitem1 a{
+	text-decoration: none;
+	color: black;
+}
+.textitem2 a{
+	text-decoration: none;
+	color: black;
+}
+.textitem3 a{
+	text-decoration: none;
+	color: black;
+}
+.textitem1 a:hover{
+	color: aqua;
+	transition: all 0.5s linear;
+	opacity: 1;
+}
+.textitem2 a:hover
+{
+	color: aqua;
+	transition: all 0.5s linear;
+	opacity: 1;
+}
+.textitem3 a:hover
+{
+	color: aqua;
+	transition: all 0.5s linear;
+	opacity: 1;
+}
+.banner4{
+	width: 100%;
+	height: 1000px;
+	background-color: aqua;
+}
+.textmenu{
+	width: 1170px;
+	height: 50px;
+    background-color: cadetblue;
+	margin: 0 auto;
+	text-align: center;
+	padding:70px 0 100px 0px;
+}	
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #5C98F3;
+  display:flex;
+  justify-content: center;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #5C98F3;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+ }
+.tablinks{
+	cursor: pointer;
+	color: aliceblue;
+	opacity: 0.5;
+	font-weight: bold;
+}
+.tablinks:hover{
+	color: white;
+	transition: all 0.5s linear;
+	opacity: 1;
+}
+.chonmenu:hover{
+	color:#5C98F3;
+	transition: all 0.5s linear;
+	opacity: 1;
+	cursor: pointer;
+}
+.giatien{
+	color:#5C98F3;
+}
+.banner5{
+	width: 100%;
+	height: 600px;
+	background-color:peachpuff;
+	position: relative;
+}
+.text5{
+	width: 40%;
+	height: 50px;
+	background-color:aqua;
+	padding: 50px 0px 50px 200px;
+	font-size:30px;
+	float:left;
+	
+	
+}
+.form5{
+	width: 40%;
+	height: 350px;
+	background-color: aqua;
+	float:left;
+}
+.hinhform{
+	width: 60%;
+	height: 600px;
+	background-color: crimson;
+	float: right;
+}
+form{
+	padding-left: 200px;
+	font-size:20px;
+}
+.hoten{
+	padding:16px 25px;
+	border-radius: 5px;
+	 border: 1px solid #ccc;
+}
+.room{
+	padding:16px 25px;
+	border-radius: 5px;
+	 border: 1px solid #ccc;
+}
+.email{
+	padding:16px 25px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	width: 83%
+}
+.tinnhan{
+	padding:16px 25px;
+	width: 83%;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	height: 180px;
+}
+.label2{
+	background-color: brown;
+	width: 200px;
+	height: 60px;
+	float: left;
+	position: absolute;
+	top:450px;
+	left:200px;
+	border-radius:5px;
+	cursor: pointer;
+}
+.textgui5{
+	text-align: center;
+	
+}
+.label2{
+	opacity: 1;
+}
+.label2:hover{
+	transition: all 0.3s linear;
+	background-color: aqua;
+}
+.banner6{
+	width: 100%;
+	height: 740px;
+	background-color: darkmagenta;
+}
+.hinh1{
+	width: 33%;
+	height: 370px;
+	background-color: coral;
+	float: left;
+	position: relative;
+}
+.hinh2{
+	width: 34%;
+	height: 370px;
+	background-color:cornflowerblue;
+	float: left;
+	position: relative;
+}
+.hinh3{
+	width: 33%;
+	height: 370px;
+	background-color:paleturquoise;
+	float: right;
+	position: relative;
+}
+.hinh4{
+	width:50%;
+	height: 370px;
+	background-color:darkkhaki;
+	float: left;
+	position: relative;
+}
+.hinh5{
+	width:50%;
+	height: 370px;
+	background-color:aqua;
+	float: right;
+	position: relative;
+}
+.labele{
+	width: 85px;
+	height: 85px;
+	border-radius:100px;
+	background-color: green;
+	position: absolute;
+	left: 450px;
+	top: 150px;
+}
+.labeld{
+	width: 85px;
+	height: 85px;
+	border-radius:100px;
+	background-color: green;
+	position: absolute;
+	left: 400px;
+	top: 150px;
+}
+.labelc{
+	width: 85px;
+	height: 85px;
+	border-radius:100px;
+	background-color: green;
+	position: absolute;
+	left: 290px;
+	top: 150px;
+}
+.labelb{
+	width: 85px;
+	height: 85px;
+	border-radius:100px;
+	background-color: green;
+	position: absolute;
+	left: 290px;
+	top: 150px;
+}
+.labela{
+	width: 85px;
+	height: 85px;
+	border-radius:100px;
+	background-color: green;
+	position: absolute;
+	left: 290px;
+	top: 150px;
+}
+.hinh1 .labela{
+	transition: all 0.5s linear;
+	opacity:0;
+	left: 250px;
+}
+.hinh1:hover .labela{
+	transition: all 0.5s linear;
+	opacity: 0.5;
+	left:290px;
+}
+.hinh1 .labela:hover{
+	transform: scale(1.3);
+	cursor: pointer;
+}
+.hinh2 .labelb{
+	transition: all 0.5s linear;
+	opacity:0;
+	left: 250px;
+}
+.hinh2:hover .labelb{
+	transition: all 0.5s linear;
+	opacity: 0.5;
+	left:290px;
+}
+.hinh2 .labelb:hover{
+	transform: scale(1.3);
+	cursor: pointer;
+}
+.hinh3 .labelc{
+	transition: all 0.5s linear;
+	opacity:0;
+	left: 250px;
+}
+.hinh3:hover .labelc{
+	transition: all 0.5s linear;
+	opacity: 0.5;
+	left:290px;
+}
+.hinh3 .labelc:hover{
+	transform: scale(1.3);
+	cursor: pointer;
+}
+.hinh4 .labeld{
+	transition: all 0.5s linear;
+	opacity:0;
+	left: 350px;
+}
+.hinh4:hover .labeld{
+	transition: all 0.5s linear;
+	opacity: 0.5;
+	left:400px;
+}
+.hinh4 .labeld:hover{
+	transform: scale(1.3);
+	cursor: pointer;
+}
+.hinh5 .labele{
+	transition: all 0.5s linear;
+	opacity:0;
+	left: 400px;
+}
+.hinh5:hover .labele{
+	transition: all 0.5s linear;
+	opacity: 0.5;
+	left:450px;
+}
+.hinh5 .labele:hover{
+	transform: scale(1.3);
+	cursor: pointer;
+}
+.textzoom{
+	text-align: center;
+	padding-top:15px;
+}
+.banner7{
+	width: 100%;
+	height: 300px;
+	background-color: darkkhaki;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.banner8{
+	width: 75%;
+	height: 500px;
+	background-color:hotpink;
+	margin: 0 auto;
+	position: relative;
+}
+.grid{
+	display: inline-grid;
+	grid-template-columns: auto auto auto auto auto;
+}
+.cot1{
+	padding: 0px 15px ;
+	font-size: 15px;
+	margin-left: 0px 209px;
+}
+.tieudecuoi{
+	position: absolute;
+	top:250px;
+}
+.label3 {
+    background-color: brown;
+	width: 140px;
+	height: 30px;
+	border-radius:3px;
+	cursor: pointer;
+	line-height: 20px;
+	padding: 4px 10px;
+}
+.label3{
+	transition: all 0.5 linear;
+}
+.label3:hover{
+	background-color: black;
+}
+
+
+
